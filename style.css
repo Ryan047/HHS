@@ -1,0 +1,254 @@
+
+/*Css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@1,700&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+/*Important Export Coding*/
+
+
+::-webkit-scrollbar {
+width: 15px;
+}
+::-webkit-scrollbar-thumb {
+background:white;
+}
+::-webkit-scrollbar-track {
+background:black;
+border-left: 0px solid black ;
+}
+::-webkit-resizer {
+background: white;
+}
+
+
+
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email,
+#HCB_comment_box #hcb_form_name,
+#HCB_comment_box #hcb_form_website {
+    background-color:#ffd;
+}
+          
+#HCB_comment_box {
+    color:white;
+  }
+    
+#HCB_comment_box textarea {
+    height:200px;
+}
+  
+ #HCB_comment_box blockquote {
+    color:white;
+  }
+
+    
+
+ #HCB_comment_box .submit {
+    background:none; /* Clear twitter bootstrap style. */
+    background-color:red;
+    border:1px solid darkgreen;
+    color: white;
+  }
+
+
+
+
+/*Normal Code*/
+
+body{
+  background-color:#283346
+}
+h1{
+  Color:white;
+  list-style-type: none;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  margin:0px;
+  font-family:'B612', sans-serif;
+  font-size:50px;
+}
+p{
+  color:white;
+  font-family: 'B612', sans-serif;
+  font-size:15px;
+  margin-left:15px;
+}
+p.a {
+ font-family: 'B612', sans-serif;
+ font-weight:200;
+ font-weight: bold;
+ font-size:25px;
+ color:black;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: white
+}
+
+
+
+/*.tags*/
+
+.navbar {
+  list-style-type: none;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+  background-color:#000000;
+  top: 0%;
+  width: 100%;
+font-family: 'B612', sans-serif;
+}
+.parallax {
+  /* The image used */
+  background-image: url("CafeBackground.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu {
+  /* The image used */
+  background-image: url("menuimg2.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+  font-weight:bold;
+  font-family: 'B612', sans-serif;
+  font-size: 32px;
+  
+}
+.column {
+  float: left;
+  width: 50%;
+
+  font-family: 'B612', sans-serif;
+  font-size:20px;
+  margin-left:15px;
+    
+  animation: text-animation;
+  animation-duration: 10s;
+  animation-delay: 0.01s;
+  animation-fill-mode: forwards;
+  animation-timing-function: --timing-function;
+}
+.row {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.map {
+ width:98vw;
+ overflow-x:hidden;
+ margin-left:7px; 
+}
+.title{
+  text-align: center;
+  font-size:50px;
+  animation: text-animation;
+  animation-duration: 10s;
+  animation-delay: 0.01s;
+  animation-fill-mode: forwards;
+  animation-timing-function: --timing-function;
+}
+.active {
+  color:black;
+  background-color: #ffffff;
+}
+.logo {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 225px;
+  height:75px;
+  border:4px solid white;
+}
+.homef
+{
+  text-align:center;
+}
+.home_img {
+  padding-left:10px;
+  width: 700px;
+  height:450px;
+    
+}
+.full{
+  background-color:black;
+  width:100%;
+}
+.address{
+  color:white;
+  font-size:25px;
+  text-align:center;
+}
+.contactheading{
+  color:white;
+  font-size:35px;
+  text-align:center;
+  text-decoration: none;
+  font-weight:normal
+}
+.intro{
+  font-size:18px;
+  
+}
+
+
+@keyframes text-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+   
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
